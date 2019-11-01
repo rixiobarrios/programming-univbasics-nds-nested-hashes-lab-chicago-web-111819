@@ -37,7 +37,7 @@ def aoh_lookup(aoh, row, key)
 end
 
 def aoh_update(aoh, row, key, new_value)
-  aoh[row][key] = new_array
+  aoh[row][key] = new_value
   return aoh
   #nested_array[2][:name] = "George Orwell"
   # Update the AoH data at row and key to have the value of new_value
